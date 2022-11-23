@@ -1,0 +1,197 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family:	Courier New;
+}
+
+  
+.navbar{  background-color: #70ACE6;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    
+}
+.navbar ul{
+   float: right;
+   height: 100%;
+   display: flex;
+   margin-right: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+   
+}
+.navbar ul li{
+    padding: 30px;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 1.6rem;
+}
+.navbar ul li:hover{
+    background-color: red;
+}
+#par1{
+    background-color: #444444;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#par1 h1{
+    font-size: 3.5rem;
+    line-height: 120px;
+}
+#par1 p{
+ font-size:1.3rem ;
+ font-style: italic;
+font-weight: lighter;
+
+}
+#par2{
+    background-color: #44586E;
+    height: 200vh;
+}
+#par2-1 p{
+    text-align: center;
+    color: white;
+   padding-top: 150px;
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+    font-weight:lighter;
+
+}
+#par2-1 hr{
+    margin-left: auto;
+    margin-right:auto ;
+    margin-bottom: 50px;
+    width: 60%;
+    border-width: 3px;
+     border-top-style: solid;
+     border-radius: 10px;
+     border-color: white;
+     
+}
+.achraf{ 
+width: 90%;
+height: 250px;
+margin-left: 20px;
+}
+#par2-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box a p {
+  margin-top: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 1.2rem;
+}
+.box{
+    background-color: rgb(255, 250, 240); 
+    border-radius: 5px;
+     width: 400px;
+     height: 350px;
+     margin: 20px;
+}
+#par2-3{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+#par2-3 .button{
+    width: 150px;
+    height: 50px;
+    background-color: #70ACE6;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#par2-3 .button:hover {
+    background-color: red ;
+    transition: 1.5s;
+}
+
+.foooter{
+    height: 100vh;
+    background-color: #444444;
+}
+.desc{
+    text-align: center;
+    padding-top: 160px;
+    color: #FFFFFF;
+}
+.desc h1{
+  font-size: 3.5rem;  
+  font-weight: lighter;
+  margin-bottom: 10px;
+
+}
+.desc p{
+    font-size:1.1rem;
+    font-weight: lighter;
+}
+  .foooter #contact ul{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:center;
+   align-items: center;
+   margin-top: 70px;
+   margin-bottom: 120px;
+}
+.foooter #contact ul li {
+    margin: 30px;
+}
+.foooter #contact ul li a{
+    color: #FFFFFF;
+   font-size: 2rem;
+   font-weight: lighter;
+
+}
+.foooter #contact ul li li i{ color: #FFFFFF;}
+#hr hr{
+    width: 100%;
+    border-color: #70ACE6;
+    border-width: 2px;
+    border-top-style: solid;
+}
+#footer-copy{
+  justify-content: center;
+  
+ 
+}
+#footer-copy  p{
+    
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-top: 25px;
+    float: left;
+}
+#footer-copy .lien {
+   float: right;
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+   
+   letter-spacing: 1px;
+}
+#footer-copy .lien a {
+    color: #FFFFFF;
+    padding-top: 25px;
+   letter-spacing: 1px;
+}
